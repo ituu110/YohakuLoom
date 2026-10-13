@@ -1,4 +1,4 @@
-/* Yohaku Loom — 控えめな演出のみ。JSが無効でも内容はすべて表示されます。 */
+/* Yohaku Loom — 控えめな演出とメニュー操作のみ。JSが無効でも内容はすべて表示されます。 */
 (function () {
   "use strict";
 
@@ -15,13 +15,35 @@
     window.addEventListener("scroll", onScroll, { passive: true });
   }
 
+  /* スマートフォン：メニューの開閉 */
+  var toggle = document.querySelector(".nav-toggle");
+  var nav = document.getElementById("site-nav");
+  if (toggle && nav) {
+    var setOpen = function (open) {
+      toggle.setAttribute("aria-expanded", String(open));
+      nav.classList.toggle("is-open", open);
+    };
+    toggle.addEventListener("click", function () {
+      setOpen(toggle.getAttribute("aria-expanded") !== "true");
+    });
+    nav.addEventListener("click", function (e) {
+      if (e.target.closest("a")) setOpen(false);
+    });
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && nav.classList.contains("is-open")) {
+        setOpen(false);
+        toggle.focus();
+      }
+    });
+  }
+
   if (!hasIO) return;
 
   /* スクロールに合わせて、要素をふわっと表示する */
   if (!reduceMotion) {
     var targets = document.querySelectorAll(
-      ".section-head, .concerns > li, .change, .concerns-note, .plan, .maintenance," +
-      " .case:not([hidden]), .flow > li, .profile-row, .contact-card"
+      ".section-head, .worry, .callout, .service, .sample, .work, .factor, .assurance," +
+      " .flow-step, .prepare, .about-main, .about-card, .faq, .contact"
     );
     var revealer = new IntersectionObserver(function (entries) {
       entries.forEach(function (entry) {
@@ -30,11 +52,11 @@
           revealer.unobserve(entry.target);
         }
       });
-    }, { rootMargin: "0px 0px -8% 0px", threshold: 0.08 });
+    }, { rootMargin: "0px 0px -8% 0px", threshold: 0.04 });
 
     targets.forEach(function (el) {
       var siblings = el.parentElement ? Array.prototype.indexOf.call(el.parentElement.children, el) : 0;
-      el.style.transitionDelay = Math.min(siblings, 4) * 70 + "ms";
+      el.style.transitionDelay = Math.min(siblings, 4) * 60 + "ms";
       el.classList.add("reveal");
       revealer.observe(el);
     });

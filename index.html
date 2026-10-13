@@ -3,21 +3,28 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Yohaku Loom｜面倒な業務を、システムで楽に。</title>
-  <meta name="description" content="Yohaku Loomは、中小企業・個人事業者のExcel・CSVの手作業や、担当者しか分からない業務を、実務に合った小さな仕組みに置き換える個人事業です。業務改善診断から自動化、AI活用、小規模Web開発まで承ります。">
+  <title>Yohaku Loom｜面倒な業務を、システムで楽に。業務効率化・Excel自動化・小規模システム開発</title>
+  <meta name="description" content="Yohaku Loomは、中小企業・個人事業者の業務効率化を支える個人事業です。Excel自動化やCSV加工などの定型業務の自動化、小規模システム開発、Web制作・WordPress移行、AI活用支援まで、課題の整理から設計・開発・運用まで一貫してご相談いただけます。">
+  <link rel="canonical" href="https://ituu110.github.io/YohakuLoom/">
   <meta name="color-scheme" content="light dark">
-  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#111618" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#fbfaf6" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0f1520" media="(prefers-color-scheme: dark)">
 
   <!-- OGP -->
   <meta property="og:title" content="Yohaku Loom｜面倒な業務を、システムで楽に。">
-  <meta property="og:description" content="Excelやメールの手作業、担当者しか分からない作業を、実務に合った小さな仕組みに置き換えます。">
+  <meta property="og:description" content="毎月のExcel作業、繰り返しの入力、管理しづらい情報。日々の困りごとを整理し、使いやすい仕組みに変えていきます。">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="【公開URLを記載】">
+  <meta property="og:url" content="https://ituu110.github.io/YohakuLoom/">
+  <meta property="og:image" content="https://ituu110.github.io/YohakuLoom/assets/ogp.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Yohaku Loom — 面倒な業務を、システムで楽に。">
   <meta property="og:site_name" content="Yohaku Loom">
   <meta property="og:locale" content="ja_JP">
+  <meta name="twitter:card" content="summary_large_image">
 
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231d5c66'/%3E%3Cpath d='M10 7v18M16 7v18M22 7v18' stroke='%23ffffff' stroke-opacity='.55' stroke-width='2'/%3E%3Cpath d='M6 17h20' stroke='%23ffffff' stroke-width='2.5' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,35 +33,35 @@
   <script>document.documentElement.classList.add("js");</script>
   <script src="assets/main.js" defer></script>
 
+  <!-- 構造化データ：確認済みの情報のみ（所在地・電話・料金・レビューは掲載しない） -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "ProfessionalService",
-    "name": "Yohaku Loom",
-    "description": "中小企業・個人事業者の面倒な業務をシステム化する個人事業。Excel・CSVの自動化、AI活用、小規模Web開発を承ります。",
-    "knowsAbout": ["業務改善", "Excel・CSVの自動化", "Python", "VBA", "Google Apps Script", "AI活用", "Webシステム開発"],
-    "makesOffer": [
+    "@graph": [
       {
-        "@type": "Offer",
-        "name": "業務改善診断",
-        "description": "オンラインで60分のヒアリングを行い、課題の整理と改善提案をまとめます。",
-        "priceSpecification": {
-          "@type": "PriceSpecification",
-          "price": 30000,
-          "priceCurrency": "JPY",
-          "valueAddedTaxIncluded": false
-        }
+        "@type": "WebSite",
+        "@id": "https://ituu110.github.io/YohakuLoom/#website",
+        "name": "Yohaku Loom",
+        "url": "https://ituu110.github.io/YohakuLoom/",
+        "inLanguage": "ja"
       },
       {
-        "@type": "Offer",
-        "name": "Excel・CSV・定型業務の自動化",
-        "description": "データの転記、集計、帳票出力をボタン一つで実行できる形にまとめます。",
-        "priceSpecification": {
-          "@type": "PriceSpecification",
-          "minPrice": 30000,
-          "maxPrice": 100000,
-          "priceCurrency": "JPY",
-          "valueAddedTaxIncluded": false
+        "@type": "ProfessionalService",
+        "@id": "https://ituu110.github.io/YohakuLoom/#business",
+        "name": "Yohaku Loom",
+        "url": "https://ituu110.github.io/YohakuLoom/",
+        "description": "中小企業・個人事業者の面倒な業務を、小さな仕組みやシステムで改善する個人事業。Excel・CSVなど定型業務の自動化、Web制作・WordPress対応、小規模Webシステム開発、AI活用支援、運用保守を承ります。",
+        "knowsAbout": ["業務効率化", "Excel自動化", "Excel VBA", "CSV加工", "Python", "WordPress移行", "小規模システム開発", "AI活用支援"],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "提供サービス",
+          "itemListElement": [
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Excel・CSV・定型業務の自動化" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Web制作・WordPress対応" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "小規模Webシステム開発" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AI活用・業務改善支援" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "運用保守・継続改善" } }
+          ]
         }
       }
     ]
@@ -73,30 +80,45 @@
         </svg>
         <span>Yohaku Loom</span>
       </a>
-      <nav class="site-nav" aria-label="ページ内">
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle-bars" aria-hidden="true"></span>
+        <span class="nav-toggle-label">メニュー</span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="ページ内">
         <ul>
-          <li><a href="#services">商品</a></li>
+          <li><a href="#services">サービス</a></li>
+          <li><a href="#pricing">料金</a></li>
+          <li><a href="#flow">進め方</a></li>
+          <li><a href="#about">私について</a></li>
           <li><a href="#works">実績</a></li>
-          <li><a href="#profile">経歴</a></li>
-          <li><a href="#contact" class="nav-cta">ご相談</a></li>
+          <li><a href="#faq">よくある質問</a></li>
         </ul>
       </nav>
+      <a class="header-cta" href="#contact">ご相談</a>
     </div>
   </header>
 
   <main id="main">
 
-    <!-- 1. ヒーロー -->
+    <!-- ============ Hero ============ -->
     <section class="hero" id="top" aria-labelledby="hero-title">
       <div class="hero-inner">
         <div class="hero-copy">
-          <p class="hero-eyebrow">業務のシステム化・自動化</p>
+          <p class="hero-eyebrow">業務効率化・自動化・小規模システム開発</p>
           <h1 id="hero-title" class="hero-title">
             <span class="line">面倒な業務を、</span>
             <span class="line">システムで<em>楽に。</em></span>
           </h1>
-          <p class="hero-lead">Excelやメールの手作業、担当者しか分からない作業を、実務に合った小さな仕組みに置き換えます。</p>
-          <a class="button" href="#contact">まずは相談する<span class="button-arrow" aria-hidden="true">→</span></a>
+          <p class="hero-lead">毎月のExcel作業、繰り返しの入力、管理しづらい情報。<br class="br-wide">そんな日々の困りごとを整理し、使いやすい仕組みに変えていきます。</p>
+          <div class="hero-actions">
+            <a class="button" href="#contact">まずは相談する<span class="button-arrow" aria-hidden="true">→</span></a>
+            <a class="button button--ghost" href="#services">サービスを見る</a>
+          </div>
+          <ul class="hero-points" aria-label="Yohaku Loomの特長">
+            <li>課題の整理から相談できる</li>
+            <li>小さな作業ひとつから</li>
+            <li>導入後の改善まで伴走</li>
+          </ul>
         </div>
 
         <!-- 装飾：自動化ツールの画面イメージ（実在の納品物ではありません） -->
@@ -115,8 +137,8 @@
               <p class="mock-run"><span class="mock-run-icon"></span>集計を実行</p>
               <ol class="mock-steps">
                 <li>データの読み込み</li>
-                <li>転記・集計</li>
-                <li>帳票を出力</li>
+                <li>集計・チェック</li>
+                <li>報告書を出力</li>
               </ol>
               <p class="mock-result"><span class="mock-ext mock-ext--xlsx">XLSX</span>月次報告.xlsx</p>
             </div>
@@ -142,323 +164,665 @@
       </svg>
     </section>
 
-    <!-- 2. お悩み -->
+    <!-- ============ 01 Concerns ============ -->
     <section class="section" id="concerns" aria-labelledby="concerns-title">
       <div class="section-inner">
         <div class="section-head">
           <p class="section-label"><span class="section-num">01</span>Concerns</p>
-          <h2 id="concerns-title">こんなお悩みはありませんか</h2>
+          <h2 id="concerns-title">こんなお悩みはありませんか？</h2>
+          <p class="section-desc">ひとつでも当てはまれば、仕組みで楽にできるかもしれません。各項目のリンクから、関係するサービスをご覧いただけます。</p>
         </div>
-        <div class="section-body">
-          <ul class="concerns">
-            <li>
-              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3.5" y="4" width="17" height="16" rx="2"/><path d="M3.5 9h17M9 9v11M14.5 9v11"/></svg>
-              <span>毎月のExcel・CSVの転記や集計に時間を取られている</span>
-            </li>
-            <li>
-              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="8" r="3.5"/><path d="M5 20c.8-3.6 3.6-5.5 7-5.5s6.2 1.9 7 5.5"/><path d="M17.5 4.5l2 2M19.5 4.5l-2 2"/></svg>
-              <span>特定の担当者しか分からない作業が増えている</span>
-            </li>
-            <li>
-              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 8h6V4h4v4h6v6h-4v6H4z"/><path d="M16 14h4v6h-4"/></svg>
-              <span>市販のツールでは、自社の業務にうまく合わない</span>
-            </li>
-          </ul>
 
-          <figure class="change">
-            <figcaption class="change-title">たとえば、毎月の集計作業なら</figcaption>
-            <div class="change-grid">
-              <div class="change-col change-col--before">
-                <p class="change-label">Before<span>今の手作業</span></p>
-                <ol>
-                  <li>各システムからCSVを書き出す</li>
-                  <li>Excelに貼り付けて形を整える</li>
-                  <li>関数で集計する</li>
-                  <li>帳票の形に転記する</li>
-                  <li>間違いがないか目で確認する</li>
-                </ol>
-              </div>
-              <div class="change-arrow" aria-hidden="true">
-                <svg viewBox="0 0 24 24" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-              </div>
-              <div class="change-col change-col--after">
-                <p class="change-label">After<span>仕組みにした後</span></p>
-                <ol>
-                  <li>CSVを決まったフォルダに置く</li>
-                  <li>ボタンを押す</li>
-                  <li>できあがった帳票を確認する</li>
-                </ol>
-              </div>
-            </div>
-            <p class="change-note">※ 改善の一例を示したイメージです。実際の内容は、業務に合わせて設計します。</p>
-          </figure>
+        <ul class="worries">
+          <li class="worry">
+            <span class="worry-text">毎月同じExcel集計を繰り返している</span>
+            <span class="worry-line" aria-hidden="true"></span>
+            <a class="worry-link" href="#service-a"><span class="worry-letter" aria-hidden="true">A</span>Excel・CSVの自動化</a>
+          </li>
+          <li class="worry">
+            <span class="worry-text">CSVの形式を、毎回手作業で整えている</span>
+            <span class="worry-line" aria-hidden="true"></span>
+            <a class="worry-link" href="#service-a"><span class="worry-letter" aria-hidden="true">A</span>Excel・CSVの自動化</a>
+          </li>
+          <li class="worry">
+            <span class="worry-text">担当者しか分からない業務がある</span>
+            <span class="worry-line" aria-hidden="true"></span>
+            <a class="worry-link" href="#service-a"><span class="worry-letter" aria-hidden="true">A</span>定型業務の仕組み化</a>
+          </li>
+          <li class="worry">
+            <span class="worry-text">複数のファイルで、同じ情報を管理している</span>
+            <span class="worry-line" aria-hidden="true"></span>
+            <a class="worry-link" href="#service-c"><span class="worry-letter" aria-hidden="true">C</span>小規模Webシステム</a>
+          </li>
+          <li class="worry">
+            <span class="worry-text">既存のシステムに、小さな機能を追加したい</span>
+            <span class="worry-line" aria-hidden="true"></span>
+            <a class="worry-link" href="#service-c"><span class="worry-letter" aria-hidden="true">C</span>小規模Webシステム</a>
+          </li>
+          <li class="worry">
+            <span class="worry-text">ホームページを更新・管理しやすくしたい</span>
+            <span class="worry-line" aria-hidden="true"></span>
+            <a class="worry-link" href="#service-b"><span class="worry-letter" aria-hidden="true">B</span>Web制作・WordPress</a>
+          </li>
+          <li class="worry">
+            <span class="worry-text">AIを活用したいが、何から始めればよいか分からない</span>
+            <span class="worry-line" aria-hidden="true"></span>
+            <a class="worry-link" href="#service-d"><span class="worry-letter" aria-hidden="true">D</span>AI活用・業務改善</a>
+          </li>
+          <li class="worry">
+            <span class="worry-text">作ってもらったツールを、直せる人がいない</span>
+            <span class="worry-line" aria-hidden="true"></span>
+            <a class="worry-link" href="#service-e"><span class="worry-letter" aria-hidden="true">E</span>運用保守・継続改善</a>
+          </li>
+        </ul>
 
-          <p class="concerns-note">いきなりシステムを作るのではなく、まずは今の業務の流れを一緒に整理するところから始めます。</p>
-        </div>
+        <p class="callout">
+          <span>どのサービスに当てはまるか分からなくても大丈夫です。<br class="br-wide">まずは困っていることを、そのままお聞かせください。</span>
+          <a class="text-link" href="#flow">相談の流れを見る<span aria-hidden="true"> →</span></a>
+        </p>
       </div>
     </section>
 
-    <!-- 3. 商品と料金 -->
+    <!-- ============ 02 Services ============ -->
     <section class="section section--soft" id="services" aria-labelledby="services-title">
       <div class="section-inner">
         <div class="section-head">
           <p class="section-label"><span class="section-num">02</span>Services</p>
-          <h2 id="services-title">商品と料金</h2>
-          <p class="section-desc">価格はすべて税抜です。</p>
+          <h2 id="services-title">提供サービス</h2>
+          <p class="section-desc">技術を売るのではなく、業務が楽になることをお届けします。いきなり大きなシステムを入れるのではなく、身近な作業から小さく改善していく進め方をご提案します。</p>
         </div>
-        <div class="section-body">
 
-          <article class="plan plan--primary" aria-labelledby="plan-diagnosis">
-            <div class="plan-head">
-              <svg class="plan-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6"/><path d="M15 15l5 5M8 10.5h5M10.5 8v5"/></svg>
-              <p class="plan-tag">最初の一歩</p>
-              <h3 id="plan-diagnosis" class="plan-name">業務改善診断</h3>
-              <p class="plan-price"><span class="plan-price-num">30,000</span><span class="plan-price-unit">円</span></p>
-            </div>
-            <p class="plan-text">オンラインで60分のヒアリングを行い、課題の整理と改善提案をまとめます。</p>
-            <div class="plan-deliverables">
-              <p class="plan-sub">お渡しするもの</p>
-              <ul class="checklist">
-                <li>現状の業務フロー図（簡易）</li>
-                <li>どこで時間や手間がかかっているかの分析</li>
-                <li>
-                  3段階の改善提案
-                  <ol class="steps-mini">
-                    <li><span>すぐできること</span></li>
-                    <li><span>ツール導入</span></li>
-                    <li><span>専用システム化</span></li>
-                  </ol>
-                </li>
-                <li>見積とスケジュールの概算</li>
+        <nav class="service-index" aria-label="サービス一覧">
+          <ol>
+            <li><a href="#service-a"><span>A</span>Excel・CSV・定型業務の自動化</a></li>
+            <li><a href="#service-b"><span>B</span>Web制作・WordPress対応</a></li>
+            <li><a href="#service-c"><span>C</span>小規模Webシステム開発</a></li>
+            <li><a href="#service-d"><span>D</span>AI活用・業務改善支援</a></li>
+            <li><a href="#service-e"><span>E</span>運用保守・継続改善</a></li>
+          </ol>
+        </nav>
+
+        <div class="services">
+
+          <!-- A -->
+          <article class="service" id="service-a" aria-labelledby="service-a-title">
+            <div class="service-main">
+              <p class="service-letter" aria-hidden="true">A</p>
+              <h3 id="service-a-title" class="service-title">Excel・CSV・定型業務の自動化</h3>
+              <p class="service-lead">毎回同じ手順で行っている作業を、ファイルを置いてボタンを押すだけで終わる形に整えます。</p>
+              <h4 class="service-sub">対応できること</h4>
+              <ul class="tags">
+                <li>Excel VBAの開発・改修</li>
+                <li>CSVの加工・変換</li>
+                <li>データ集計</li>
+                <li>帳票出力</li>
+                <li>Pythonによる繰り返し作業の自動化</li>
               </ul>
+              <a class="text-link service-cta" href="https://docs.google.com/forms/d/e/1FAIpQLSciZb-YxmIhwWlTaf8ZAlrvFsC3_Vq9RciBratoMTr7Pluogw/viewform?usp=pp_url&amp;entry.2109916976=Excel%E3%83%BBCSV%E3%83%BB%E5%AE%9A%E5%9E%8B%E6%A5%AD%E5%8B%99%E3%81%AE%E8%87%AA%E5%8B%95%E5%8C%96" target="_blank" rel="noopener noreferrer">この内容で相談する<span class="visually-hidden">（Googleフォームが新しいタブで開きます）</span><span aria-hidden="true"> ↗</span></a>
             </div>
-            <p class="plan-note">※ 診断費は、その後の開発費用には充当されません。</p>
+            <dl class="service-detail">
+              <div class="detail">
+                <dt>よくある悩み</dt>
+                <dd>
+                  <ul class="dash-list">
+                    <li>毎月の集計作業に、まとまった時間を取られている</li>
+                    <li>CSVの列の並びや形式を、毎回手で直している</li>
+                    <li>マクロが複雑で、作った人しか直せない</li>
+                  </ul>
+                </dd>
+              </div>
+              <div class="detail detail--change">
+                <dt>期待できる変化</dt>
+                <dd>決まった手順の作業を仕組みに任せ、人は結果の確認に集中できる状態を目指します。担当者が変わっても、同じ手順で同じ結果を出しやすくなります。</dd>
+              </div>
+              <div class="detail detail--example">
+                <dt>相談例</dt>
+                <dd><q>複数店舗の売上CSVを、毎月ひとつの集計表にまとめたい</q></dd>
+              </div>
+            </dl>
           </article>
 
-          <article class="plan" aria-labelledby="plan-automation">
-            <div class="plan-head">
-              <svg class="plan-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3.5" y="4" width="17" height="16" rx="2"/><path d="M3.5 9h17"/><path d="M10 12.5l4 2.5-4 2.5z"/></svg>
-              <h3 id="plan-automation" class="plan-name">Excel・CSV・定型業務の自動化</h3>
-              <p class="plan-price"><span class="plan-price-num">30,000〜100,000</span><span class="plan-price-unit">円</span></p>
+          <!-- B -->
+          <article class="service" id="service-b" aria-labelledby="service-b-title">
+            <div class="service-main">
+              <p class="service-letter" aria-hidden="true">B</p>
+              <h3 id="service-b-title" class="service-title">Web制作・WordPress対応</h3>
+              <p class="service-lead">小規模事業者向けのWebサイト制作から、既存サイトの改修、WordPressへの移行・更新まで対応します。</p>
+              <h4 class="service-sub">対応できること</h4>
+              <ul class="tags">
+                <li>小規模事業者向けWebサイト制作</li>
+                <li>既存サイトの改修</li>
+                <li>WordPressへの移行</li>
+                <li>WordPressサイトの更新・保守</li>
+                <li>HTML / CSS / JavaScriptの修正</li>
+              </ul>
+              <a class="text-link service-cta" href="https://docs.google.com/forms/d/e/1FAIpQLSciZb-YxmIhwWlTaf8ZAlrvFsC3_Vq9RciBratoMTr7Pluogw/viewform?usp=pp_url&amp;entry.2109916976=Web%E3%82%B5%E3%82%A4%E3%83%88%E5%88%B6%E4%BD%9C%E3%83%BBWordPress" target="_blank" rel="noopener noreferrer">この内容で相談する<span class="visually-hidden">（Googleフォームが新しいタブで開きます）</span><span aria-hidden="true"> ↗</span></a>
             </div>
-            <p class="plan-text">データの転記、集計、帳票の出力など、毎回同じ手順で行っている作業を、ボタン一つで実行できる形にまとめます。</p>
-            <ul class="meta-list">
-              <li><span class="meta-key">使う道具</span>Python / VBA（Excelのマクロ） / Google Apps Script</li>
-              <li><span class="meta-key">修正対応</span>納品後の軽微な修正2回まで料金に含みます</li>
-            </ul>
+            <dl class="service-detail">
+              <div class="detail">
+                <dt>よくある悩み</dt>
+                <dd>
+                  <ul class="dash-list">
+                    <li>文言を少し変えるだけでも、外部に依頼している</li>
+                    <li>古いサイトのまま、更新が止まっている</li>
+                    <li>スマートフォンで見ると表示が崩れる</li>
+                  </ul>
+                </dd>
+              </div>
+              <div class="detail detail--change">
+                <dt>期待できる変化</dt>
+                <dd>お知らせや文言を、社内で無理なく更新できる状態に近づけます。事業の内容が、スマートフォンでも伝わりやすいサイトになります。</dd>
+              </div>
+              <div class="detail detail--example">
+                <dt>相談例</dt>
+                <dd><q>事業内容がひと目で伝わる、シンプルなサイトを作りたい</q></dd>
+              </div>
+            </dl>
           </article>
 
-          <article class="plan" aria-labelledby="plan-custom">
-            <div class="plan-head">
-              <svg class="plan-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M8 8l-4 4 4 4M16 8l4 4-4 4M13.5 5l-3 14"/></svg>
-              <h3 id="plan-custom" class="plan-name">AI業務改善・PoC／小規模Webシステム開発</h3>
-              <p class="plan-price plan-price--quote">内容に応じてお見積りします</p>
+          <!-- C -->
+          <article class="service" id="service-c" aria-labelledby="service-c-title">
+            <div class="service-main">
+              <p class="service-letter" aria-hidden="true">C</p>
+              <h3 id="service-c-title" class="service-title">小規模Webシステム開発</h3>
+              <p class="service-lead">Excelや紙で管理している情報を、ブラウザから登録・検索・更新できる小さなシステムにします。</p>
+              <h4 class="service-sub">対応できること</h4>
+              <ul class="tags">
+                <li>業務管理システム</li>
+                <li>情報の登録・検索・更新</li>
+                <li>管理画面</li>
+                <li>CSV入出力</li>
+                <li>既存システムの改修</li>
+                <li>業務に合わせた小さなWebアプリ</li>
+              </ul>
+              <a class="text-link service-cta" href="https://docs.google.com/forms/d/e/1FAIpQLSciZb-YxmIhwWlTaf8ZAlrvFsC3_Vq9RciBratoMTr7Pluogw/viewform?usp=pp_url&amp;entry.2109916976=%E5%B0%8F%E8%A6%8F%E6%A8%A1Web%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E9%96%8B%E7%99%BA" target="_blank" rel="noopener noreferrer">この内容で相談する<span class="visually-hidden">（Googleフォームが新しいタブで開きます）</span><span aria-hidden="true"> ↗</span></a>
             </div>
-            <p class="plan-text">AIを業務に取り入れる検討や、小さく試して効果を確かめる取り組み（PoC）、社内向けの小規模なWebシステムの開発を承ります。まずはご相談ください。</p>
+            <dl class="service-detail">
+              <div class="detail">
+                <dt>よくある悩み</dt>
+                <dd>
+                  <ul class="dash-list">
+                    <li>同じ情報が複数のファイルにあり、どれが最新か分からない</li>
+                    <li>共有フォルダのExcelを、複数人で同時に編集できない</li>
+                    <li>今のシステムに、少しだけ機能を足したい</li>
+                  </ul>
+                </dd>
+              </div>
+              <div class="detail detail--change">
+                <dt>期待できる変化</dt>
+                <dd>情報を1か所にまとめ、必要な人が同じ最新の情報を見られる状態を目指します。市販ツールでは合わない部分も、業務に合わせて作れます。</dd>
+              </div>
+              <div class="detail detail--example">
+                <dt>相談例</dt>
+                <dd><q>案件の進み具合を、Excelではなく画面で一覧・検索できるようにしたい</q></dd>
+              </div>
+            </dl>
           </article>
 
-          <p class="maintenance">
-            <span class="maintenance-label">保守プラン</span>
-            納品後のオプションとして、月額10,000円〜で修正・運用のお手伝いを承ります。
-          </p>
+          <!-- D -->
+          <article class="service" id="service-d" aria-labelledby="service-d-title">
+            <div class="service-main">
+              <p class="service-letter" aria-hidden="true">D</p>
+              <h3 id="service-d-title" class="service-title">AI活用・業務改善支援</h3>
+              <p class="service-lead">ChatGPTなどのAIを、日々の業務で無理なく、安全に使える形を一緒に考えます。</p>
+              <h4 class="service-sub">対応できること</h4>
+              <ul class="tags">
+                <li>ChatGPT等の業務活用相談</li>
+                <li>プロンプトの整備</li>
+                <li>AIエージェントの導入支援</li>
+                <li>AIを使った定型作業の効率化</li>
+                <li>小規模なAI活用の試作・検証</li>
+              </ul>
+              <a class="text-link service-cta" href="https://docs.google.com/forms/d/e/1FAIpQLSciZb-YxmIhwWlTaf8ZAlrvFsC3_Vq9RciBratoMTr7Pluogw/viewform?usp=pp_url&amp;entry.2109916976=AI%E6%B4%BB%E7%94%A8%E3%83%BB%E6%A5%AD%E5%8B%99%E6%94%B9%E5%96%84" target="_blank" rel="noopener noreferrer">この内容で相談する<span class="visually-hidden">（Googleフォームが新しいタブで開きます）</span><span aria-hidden="true"> ↗</span></a>
+            </div>
+            <dl class="service-detail">
+              <div class="detail">
+                <dt>よくある悩み</dt>
+                <dd>
+                  <ul class="dash-list">
+                    <li>AIを使ってみたいが、何から始めればよいか分からない</li>
+                    <li>人によって使い方がばらばらで、成果が安定しない</li>
+                    <li>情報の取り扱いなど、リスクが心配</li>
+                  </ul>
+                </dd>
+              </div>
+              <div class="detail detail--change">
+                <dt>期待できる変化</dt>
+                <dd>小さな業務で試し、効果と注意点を確かめてから広げていく進め方ができます。社内で共有できる使い方の型が残ります。</dd>
+              </div>
+              <div class="detail detail--example">
+                <dt>相談例</dt>
+                <dd><q>問い合わせへの返信文の下書きを、AIで作れないか試したい</q></dd>
+              </div>
+            </dl>
+          </article>
+
+          <!-- E -->
+          <article class="service" id="service-e" aria-labelledby="service-e-title">
+            <div class="service-main">
+              <p class="service-letter" aria-hidden="true">E</p>
+              <h3 id="service-e-title" class="service-title">運用保守・継続改善</h3>
+              <p class="service-lead">作って終わりにせず、使いながら直し、業務の変化に合わせて仕組みを育てていきます。</p>
+              <h4 class="service-sub">対応できること</h4>
+              <ul class="tags">
+                <li>軽微な修正</li>
+                <li>運用上の問題への対応</li>
+                <li>機能追加</li>
+                <li>定期的な改善相談</li>
+              </ul>
+              <a class="text-link service-cta" href="https://docs.google.com/forms/d/e/1FAIpQLSciZb-YxmIhwWlTaf8ZAlrvFsC3_Vq9RciBratoMTr7Pluogw/viewform?usp=pp_url&amp;entry.2109916976=%E3%81%9D%E3%81%AE%E4%BB%96%E3%83%BB%E3%81%BE%E3%81%A0%E6%B1%BA%E3%81%BE%E3%81%A3%E3%81%A6%E3%81%84%E3%81%AA%E3%81%84" target="_blank" rel="noopener noreferrer">この内容で相談する<span class="visually-hidden">（Googleフォームが新しいタブで開きます）</span><span aria-hidden="true"> ↗</span></a>
+            </div>
+            <dl class="service-detail">
+              <div class="detail">
+                <dt>よくある悩み</dt>
+                <dd>
+                  <ul class="dash-list">
+                    <li>作ってもらったツールの直し方が分からない</li>
+                    <li>業務が変わり、仕組みが合わなくなってきた</li>
+                    <li>ちょっとした修正を気軽に頼める先がない</li>
+                  </ul>
+                </dd>
+              </div>
+              <div class="detail detail--change">
+                <dt>期待できる変化</dt>
+                <dd>困ったときに相談できる窓口ができ、仕組みを使い続けられる状態を保てます。</dd>
+              </div>
+              <div class="detail detail--example">
+                <dt>相談例</dt>
+                <dd><q>帳票の項目が増えたので、出力の形式を変えたい</q></dd>
+              </div>
+            </dl>
+          </article>
 
         </div>
       </div>
     </section>
 
-    <!-- 4. 実績・事例 -->
-    <section class="section" id="works" aria-labelledby="works-title">
+    <!-- ============ 03 Sample ============ -->
+    <section class="section" id="sample" aria-labelledby="sample-title">
       <div class="section-inner">
         <div class="section-head">
-          <p class="section-label"><span class="section-num">03</span>Works</p>
-          <h2 id="works-title">実績・事例</h2>
+          <p class="section-label"><span class="section-num">03</span>Example</p>
+          <h2 id="sample-title">改善のイメージ</h2>
+          <p class="section-desc">月次の売上報告を例に、手作業を仕組みに置き換えると業務の流れがどう変わるかを図にしました。</p>
         </div>
-        <div class="section-body">
-          <!--
-            事例カードの追加方法：
-            下の <article class="case"> ... </article> を1つコピーして、内容を書き換えてください。
-            「課題／対応／成果」は <dl class="case-points"> 内の <div> を単位に増減できます。
-          -->
-          <div class="cases">
 
-            <!-- 事例A：許可取得後に有効化（公開許可を得たら、下の article の hidden 属性を削除し、data-ready="true" に変更） -->
-            <article class="case" data-ready="false" hidden aria-labelledby="case-a-title">
-              <header class="case-head">
-                <p class="case-kind">Webサイト移行・保守</p>
-                <h3 id="case-a-title" class="case-title">士業事務所サイトのWordPress移行</h3>
-              </header>
-              <dl class="case-points">
-                <div>
-                  <dt>課題</dt>
-                  <dd>既存のレイアウトを保ったまま、管理者が文言を簡単に更新できる形にしたい。</dd>
-                </div>
-                <div>
-                  <dt>対応</dt>
-                  <dd>レイアウトを維持してWordPressへ移行し、管理者が自分で文言を編集できる構成にしました。移行後の保守も継続しています。</dd>
-                </div>
-                <!-- 成果：実測値が確定するまで非表示。確定したら hidden を削除して数値を記入 -->
-                <div hidden>
-                  <dt>成果</dt>
-                  <dd>【実測値を記入。例: 更新作業が○分から○分に短縮】</dd>
-                </div>
-              </dl>
-              <p class="case-note">【関係性の記載。例: 親族の事務所からのご依頼】</p>
-            </article>
+        <figure class="sample">
+          <p class="sample-badge">説明用サンプル</p>
 
-            <!-- 事例B：Futari-Note -->
-            <article class="case" data-ready="true" aria-labelledby="case-b-title">
-              <header class="case-head">
-                <p class="case-kind">自社Webサービス・運用中</p>
-                <h3 id="case-b-title" class="case-title">Futari-Note</h3>
-              </header>
-              <dl class="case-points">
-                <div>
-                  <dt>内容</dt>
-                  <dd>企画・設計・開発・本番運用まで、すべて自身で行っているWebサービスです。</dd>
+          <div class="lane lane--before">
+            <p class="lane-label"><span class="lane-en">Before</span>現状<span class="lane-sub">すべて手作業</span></p>
+            <ol class="lane-steps">
+              <li class="step step--manual"><span class="step-kind">手作業</span><span class="step-name">Excelを開く</span></li>
+              <li class="step step--manual"><span class="step-kind">手作業</span><span class="step-name">CSVをコピー</span></li>
+              <li class="step step--manual"><span class="step-kind">手作業</span><span class="step-name">手動で集計</span></li>
+              <li class="step step--manual"><span class="step-kind">手作業</span><span class="step-name">確認</span></li>
+              <li class="step step--manual"><span class="step-kind">手作業</span><span class="step-name">報告書を作成</span></li>
+            </ol>
+          </div>
+
+          <div class="lane-divider" aria-hidden="true">
+            <svg viewBox="0 0 24 24" focusable="false"><path d="M12 4v16M6 14l6 6 6-6"/></svg>
+          </div>
+
+          <div class="lane lane--after">
+            <p class="lane-label"><span class="lane-en">After</span>改善後<span class="lane-sub">人は確認に集中</span></p>
+            <ol class="lane-steps">
+              <li class="step step--auto"><span class="step-kind">自動</span><span class="step-name">CSVを読み込む</span></li>
+              <li class="step step--auto"><span class="step-kind">自動</span><span class="step-name">自動で集計</span></li>
+              <li class="step step--human"><span class="step-kind">人が確認</span><span class="step-name">結果を確認</span></li>
+              <li class="step step--auto"><span class="step-kind">自動</span><span class="step-name">報告書を出力</span></li>
+            </ol>
+          </div>
+
+          <figcaption class="sample-caption">
+            <p>人の判断が必要な「確認」は残し、繰り返しの作業を仕組みに任せる。この考え方で、業務に合わせて設計します。</p>
+            <p class="sample-note">※ 業務改善の流れを説明するためのサンプルです。特定のお客様の事例や、効果を測定した結果ではありません。</p>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ 04 Pricing ============ -->
+    <section class="section section--soft" id="pricing" aria-labelledby="pricing-title">
+      <div class="section-inner">
+        <div class="section-head">
+          <p class="section-label"><span class="section-num">04</span>Pricing</p>
+          <h2 id="pricing-title">料金の考え方</h2>
+          <p class="section-desc">料金は、ご依頼の内容によって変わります。正式なお見積もりは、ヒアリングで内容を伺ったあとに個別にご提示します。</p>
+        </div>
+
+        <div class="pricing">
+          <ul class="factors" aria-label="料金を決める主な要素">
+            <li class="factor">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M4 10h16M10 10v10"/></svg>
+              <h3 class="factor-title">作業の範囲</h3>
+              <p>どの業務の、どこからどこまでを仕組みにするか。</p>
+            </li>
+            <li class="factor">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9z"/><path d="M12 12l8-4.5M12 12v9M12 12L4 7.5"/></svg>
+              <h3 class="factor-title">仕様と規模</h3>
+              <p>画面やデータの数、連携するシステムやファイルの多さ。</p>
+            </li>
+            <li class="factor">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8"/><path d="M12 8v4l3 2"/></svg>
+              <h3 class="factor-title">時期と運用</h3>
+              <p>ご希望の納期や、納品後の保守・改善を含めるかどうか。</p>
+            </li>
+          </ul>
+
+          <div class="assurance">
+            <p class="assurance-title">安心してご依頼いただくために</p>
+            <ul class="checklist">
+              <li>作業範囲と費用をご確認いただいてから着手します</li>
+              <li>小さな作業ひとつからでもご相談いただけます</li>
+              <li>ご予算に合わせて、段階的に進める方法もご提案します</li>
+            </ul>
+          </div>
+        </div>
+        <!-- 料金表コンポーネント（.price-table）は、税区分・サービス範囲・金額の承認後に追加します。下書きは _internal/ で管理。 -->
+      </div>
+    </section>
+
+    <!-- ============ 05 Flow ============ -->
+    <section class="section" id="flow" aria-labelledby="flow-title">
+      <div class="section-inner">
+        <div class="section-head">
+          <p class="section-label"><span class="section-num">05</span>Flow</p>
+          <h2 id="flow-title">ご依頼の流れ</h2>
+          <p class="section-desc">お問い合わせから納品後の改善まで、次のように進めます。どの段階でも、分からないことは遠慮なくお尋ねください。</p>
+        </div>
+
+        <ol class="flow">
+          <li class="flow-step">
+            <h3 class="flow-title">お問い合わせ</h3>
+            <p>フォームから、困っていることをお知らせください。まとまっていない状態でも構いません。</p>
+          </li>
+          <li class="flow-step">
+            <h3 class="flow-title">現状・課題のヒアリング</h3>
+            <p>オンラインで、今の業務の流れと困っている点を伺い、一緒に整理します。</p>
+          </li>
+          <li class="flow-step">
+            <h3 class="flow-title">改善方針とお見積もり</h3>
+            <p>何をどこまで仕組みにするか、作業範囲・費用・スケジュールをまとめてご提示します。</p>
+          </li>
+          <li class="flow-step">
+            <h3 class="flow-title">設計・制作・開発</h3>
+            <p>ご納得いただいてから着手します。途中で動きを確認していただきながら進めます。</p>
+          </li>
+          <li class="flow-step">
+            <h3 class="flow-title">動作確認・納品</h3>
+            <p>実際の業務で使えるかを一緒に確認し、使い方の説明とあわせてお渡しします。</p>
+          </li>
+          <li class="flow-step">
+            <h3 class="flow-title">運用・改善相談</h3>
+            <p>使ってみて気づいたことや、業務の変化に合わせた修正・機能追加をご相談いただけます。</p>
+          </li>
+        </ol>
+
+        <div class="prepare">
+          <div class="prepare-head">
+            <h3 class="prepare-title">ご相談の前に、あるとスムーズなもの</h3>
+            <p>なくても大丈夫です。文章だけのご相談も歓迎しています。</p>
+          </div>
+          <ul class="prepare-list">
+            <li><span class="prepare-num" aria-hidden="true">1</span>困っている作業の、おおまかな流れ（箇条書きで十分です）</li>
+            <li><span class="prepare-num" aria-hidden="true">2</span>いま使っているファイルやツールの種類（Excel、CSV、Webサイトなど）</li>
+            <li><span class="prepare-num" aria-hidden="true">3</span>いつ頃までに改善したいか</li>
+            <li><span class="prepare-num" aria-hidden="true">4</span>ご予算の目安（未定でも構いません）</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 06 About ============ -->
+    <section class="section section--soft" id="about" aria-labelledby="about-title">
+      <div class="section-inner">
+        <div class="section-head">
+          <p class="section-label"><span class="section-num">06</span>About</p>
+          <h2 id="about-title">Yohaku Loomについて</h2>
+          <p class="section-desc">業務に「余白」を生む仕組みを、一本ずつ丁寧に織り上げる。屋号には、そんな想いを込めています。</p>
+        </div>
+
+        <div class="about">
+          <div class="about-main">
+            <p class="about-lead">Yohaku Loomは、業務システム開発の実務経験をもとに、中小企業や個人事業者の「面倒な業務」を小さな仕組みで改善する個人事業です。</p>
+            <ul class="pillars">
+              <li class="pillar">
+                <h3 class="pillar-title">ご依頼者と直接やりとり</h3>
+                <p>個人事業のため、ヒアリングから開発・保守まで同じ担当者が対応します。伝言による行き違いが起きにくく、細かなご要望も反映しやすい体制です。</p>
+              </li>
+              <li class="pillar">
+                <h3 class="pillar-title">課題の整理から</h3>
+                <p>「何を作るか」が決まっていなくても大丈夫です。業務の流れを一緒に整理し、本当に必要な範囲を見極めます。</p>
+              </li>
+              <li class="pillar">
+                <h3 class="pillar-title">業務と技術の橋渡し</h3>
+                <p>専門用語をなるべく使わずにご説明します。現場の業務の言葉を、仕組みの設計に置き換えるのが私の役割です。</p>
+              </li>
+            </ul>
+          </div>
+
+          <aside class="about-side" aria-label="経験と開発体制">
+            <div class="about-card">
+              <h3 class="about-card-title">これまでの経験</h3>
+              <dl class="profile">
+                <div class="profile-row">
+                  <dt>実務</dt>
+                  <dd>業務システム開発に従事（2022年〜）</dd>
                 </div>
-                <div>
-                  <dt>技術</dt>
+                <div class="profile-row">
+                  <dt>担当工程</dt>
+                  <dd>要件整理、基本設計、顧客との調整、開発、テストの取りまとめ</dd>
+                </div>
+                <div class="profile-row">
+                  <dt>個人開発</dt>
+                  <dd>Webサービス「Futari-Note」を企画から運用まで担当</dd>
+                </div>
+                <div class="profile-row">
+                  <dt>主な技術</dt>
                   <dd>
-                    <ul class="tags">
+                    <ul class="tags tags--small">
+                      <li>Excel VBA</li>
+                      <li>Python</li>
+                      <li>SQL</li>
+                      <li>Java / Spring</li>
                       <li>React</li>
                       <li>TypeScript</li>
                       <li>Django</li>
-                      <li>Django REST Framework</li>
                       <li>PostgreSQL</li>
-                      <li>Azure</li>
+                      <li>WordPress</li>
                     </ul>
                   </dd>
                 </div>
               </dl>
-              <p class="case-link">
-                <a href="【Futari-NoteのURLを記載】" target="_blank" rel="noopener noreferrer">サービスを見る<span class="visually-hidden">（新しいタブで開きます）</span><span aria-hidden="true"> ↗</span></a>
-              </p>
-            </article>
+            </div>
 
-          </div>
+            <div class="about-card about-card--ai">
+              <h3 class="about-card-title">AIを活用した開発体制</h3>
+              <p>調査・実装・テストの効率化にAIエージェントを活用し、その分の時間を課題の整理や確認に充てています。仕様の判断、成果物のレビュー、動作やセキュリティの確認は人が行い、納品物の品質に責任を持ちます。</p>
+            </div>
+          </aside>
         </div>
       </div>
     </section>
 
-    <!-- 5. 進め方 -->
-    <section class="section section--soft" id="flow" aria-labelledby="flow-title">
+    <!-- ============ 07 Works ============ -->
+    <section class="section" id="works" aria-labelledby="works-title">
       <div class="section-inner">
         <div class="section-head">
-          <p class="section-label"><span class="section-num">04</span>Flow</p>
-          <h2 id="flow-title">進め方</h2>
+          <p class="section-label"><span class="section-num">07</span>Works</p>
+          <h2 id="works-title">実績・制作事例</h2>
+          <p class="section-desc">受託案件は、お客様から掲載の許可をいただいたものから順にご紹介します。</p>
         </div>
-        <div class="section-body">
-          <ol class="flow">
-            <li>
-              <h3 class="flow-title">相談</h3>
-              <p>フォームからお困りごとをお知らせください。まとまっていない状態でも構いません。</p>
-            </li>
-            <li>
-              <h3 class="flow-title">診断</h3>
-              <p>オンライン60分のヒアリングで、業務の流れと課題を整理します。</p>
-            </li>
-            <li>
-              <h3 class="flow-title">お見積り</h3>
-              <p>改善提案をもとに、作る範囲・費用・スケジュールをご提示します。</p>
-            </li>
-            <li>
-              <h3 class="flow-title">開発・納品</h3>
-              <p>途中で動きを確認していただきながら進め、実際の業務で使える形でお渡しします。</p>
-            </li>
-            <li>
-              <h3 class="flow-title">保守</h3>
-              <p>ご希望に応じて、納品後の修正や運用のお手伝いを続けます。</p>
-            </li>
-          </ol>
+
+        <div class="works">
+          <!-- Futari-Note（自社開発・公開中） -->
+          <article class="work work--feature" aria-labelledby="work-futari-title">
+            <div class="work-body">
+              <p class="work-kind"><span class="kind-badge">自社開発</span>Webサービス・公開中</p>
+              <h3 id="work-futari-title" class="work-title">Futari-Note</h3>
+              <p class="work-summary">同棲中のカップルや夫婦など、ふたりで暮らす人のための家計管理Webサービスです。収支の入力、予算の管理、パートナーとの共有などをWebブラウザから無料で利用でき、スマートフォンのホーム画面に追加して使うこともできます。生活費の分担などを試算できる無料ツールも公開しています。</p>
+              <ul class="checklist">
+                <li>サービスの企画から設計・開発・運用までを一貫して担当</li>
+                <li>フロントエンドとバックエンドの両方を開発</li>
+                <li>日常的に使われるWebサービスとして、使いやすさを重視して設計</li>
+                <li>公開後も、運用しながら継続的に機能を改善</li>
+              </ul>
+              <p class="work-link">
+                <a class="text-link" href="https://futari-note-app.com/" target="_blank" rel="noopener noreferrer">Futari-Noteを見る<span class="visually-hidden">（新しいタブで開きます）</span><span aria-hidden="true"> ↗</span></a>
+              </p>
+            </div>
+
+            <figure class="arch">
+              <figcaption class="arch-title">システム構成</figcaption>
+              <div class="arch-cloud">
+                <p class="arch-cloud-label">Azure</p>
+                <ol class="arch-layers">
+                  <li>
+                    <span class="arch-role">画面</span>
+                    <span class="arch-tech">React / TypeScript / Material UI</span>
+                  </li>
+                  <li>
+                    <span class="arch-role">API</span>
+                    <span class="arch-tech">Django REST Framework</span>
+                  </li>
+                  <li>
+                    <span class="arch-role">データ</span>
+                    <span class="arch-tech">PostgreSQL</span>
+                  </li>
+                </ol>
+              </div>
+            </figure>
+          </article>
+
+          <!-- sr-design-ai（受託・進行中）※リリース完了までは「公開済み」「納品済み」と書かないこと -->
+          <article class="work" aria-labelledby="work-srdesign-title">
+            <p class="work-kind"><span class="kind-badge">受託</span>WordPress移行・進行中（2026年10月末リリース予定）</p>
+            <h3 id="work-srdesign-title" class="work-title">sr-design-ai 様 WebサイトのWordPress移行</h3>
+            <p class="work-summary">既存のWebサイトをWordPressへ移行するご依頼です。本番サイトに影響を出さずに切り替えられるよう、事前の準備と確認を重ねて進めています。リリース後は、サイトの保守も担当する予定です。</p>
+            <ul class="checklist">
+              <li>検証環境を用意し、移行後の表示と動作を事前に確認</li>
+              <li>本番と同じ手順で移行リハーサルを実施</li>
+              <li>移行作業の手順書を作成し、作業内容を見える化</li>
+            </ul>
+            <ul class="tags">
+              <li>WordPress</li>
+              <li>サイト移行</li>
+              <li>運用保守</li>
+            </ul>
+          </article>
+
+          <!-- 受託事例の追加は、お客様の公開許可を得てから行ってください。 -->
         </div>
       </div>
     </section>
 
-    <!-- 6. お問い合わせ -->
+    <!-- ============ 08 FAQ ============ -->
+    <section class="section section--soft" id="faq" aria-labelledby="faq-title">
+      <div class="section-inner">
+        <div class="section-head">
+          <p class="section-label"><span class="section-num">08</span>FAQ</p>
+          <h2 id="faq-title">よくある質問</h2>
+          <p class="section-desc">ここにないご質問も、お問い合わせフォームからお気軽にどうぞ。</p>
+        </div>
+
+        <div class="faq">
+          <details class="faq-item">
+            <summary><span class="faq-q" aria-hidden="true">Q</span>小さな修正だけでも相談できますか？</summary>
+            <div class="faq-a"><p>はい、ご相談いただけます。Excelのマクロの一部修正や、Webサイトの文言変更など、小さな作業からお受けしています。内容を伺ったうえで、対応できるかどうかをご案内します。</p></div>
+          </details>
+          <details class="faq-item">
+            <summary><span class="faq-q" aria-hidden="true">Q</span>Excel作業の自動化だけでも依頼できますか？</summary>
+            <div class="faq-a"><p>はい。Excelの集計や転記、CSVの加工など、ひとつの作業の自動化だけでもご依頼いただけます。</p></div>
+          </details>
+          <details class="faq-item">
+            <summary><span class="faq-q" aria-hidden="true">Q</span>まだ要件が決まっていなくても相談できますか？</summary>
+            <div class="faq-a"><p>はい。「何に困っているか」が分かれば十分です。ヒアリングを通じて業務の流れと課題を一緒に整理し、何をどこまで仕組みにするかをご提案します。</p></div>
+          </details>
+          <details class="faq-item">
+            <summary><span class="faq-q" aria-hidden="true">Q</span>制作費用はどのように決まりますか？</summary>
+            <div class="faq-a"><p>作業の範囲、仕様と規模、ご希望の時期や納品後の運用などによって決まります。ヒアリングのあと、作業範囲と費用をまとめたお見積もりをご提示し、ご確認いただいてから着手します。</p></div>
+          </details>
+          <details class="faq-item">
+            <summary><span class="faq-q" aria-hidden="true">Q</span>納品後の保守もお願いできますか？</summary>
+            <div class="faq-a"><p>ご相談いただけます。保守の範囲や費用は、納品するものの内容に合わせて、お見積もりの際にご提案します。</p></div>
+          </details>
+          <details class="faq-item">
+            <summary><span class="faq-q" aria-hidden="true">Q</span>WordPressの移行や修正は対応できますか？</summary>
+            <div class="faq-a"><p>はい。既存サイトのWordPressへの移行や、WordPressサイトの修正・更新に対応しています。現在のサイトの構成やサーバー環境を確認したうえで、進め方をご提案します。</p></div>
+          </details>
+          <details class="faq-item">
+            <summary><span class="faq-q" aria-hidden="true">Q</span>AIの導入相談もできますか？</summary>
+            <div class="faq-a"><p>はい。業務の内容や、情報の取り扱いに関する注意点を踏まえて、小さく試すところからご提案します。</p></div>
+          </details>
+          <details class="faq-item">
+            <summary><span class="faq-q" aria-hidden="true">Q</span>オンラインで相談できますか？</summary>
+            <div class="faq-a"><p>はい。ヒアリングや打ち合わせは、オンラインで行っています。</p></div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 09 Contact ============ -->
     <section class="section section--contact" id="contact" aria-labelledby="contact-title">
       <div class="section-inner">
-        <div class="section-head">
-          <p class="section-label"><span class="section-num">05</span>Contact</p>
-          <h2 id="contact-title">ご相談</h2>
-        </div>
-        <div class="section-body">
-          <div class="contact-card">
-            <p class="contact-text">【料金の案内文】</p>
-            <a class="button button--large" href="【GoogleフォームのURL】" target="_blank" rel="noopener noreferrer">
-              相談フォームを開く<span class="visually-hidden">（新しいタブで開きます）</span><span class="button-arrow" aria-hidden="true">↗</span>
+        <div class="contact">
+          <div class="contact-copy">
+            <p class="section-label section-label--on-dark"><span class="section-num">09</span>Contact</p>
+            <h2 id="contact-title" class="contact-title">まずは、困っていることを<br class="br-wide">お聞かせください。</h2>
+            <p class="contact-lead">「こんなことを頼んでもいいのかな」という段階でも構いません。内容を拝見し、メールでご連絡します。</p>
+            <a class="button button--light button--large" href="https://docs.google.com/forms/d/e/1FAIpQLSciZb-YxmIhwWlTaf8ZAlrvFsC3_Vq9RciBratoMTr7Pluogw/viewform" target="_blank" rel="noopener noreferrer">
+              相談フォームを開く<span class="visually-hidden">（Googleフォームが新しいタブで開きます）</span><span class="button-arrow" aria-hidden="true">↗</span>
             </a>
-            <p class="contact-meta">返信の目安：【例: 2営業日以内】</p>
+            <p class="contact-meta">Googleフォーム（新しいタブ）で開きます。入力内容は<a href="privacy.html">プライバシーポリシー</a>に沿って取り扱います。</p>
           </div>
-        </div>
-      </div>
-    </section>
 
-    <!-- 7. 経歴 -->
-    <section class="section" id="profile" aria-labelledby="profile-title">
-      <div class="section-inner">
-        <div class="section-head">
-          <p class="section-label"><span class="section-num">06</span>Profile</p>
-          <h2 id="profile-title">経歴</h2>
-        </div>
-        <div class="section-body">
-          <dl class="profile">
-            <div class="profile-row">
-              <dt>経験年数</dt>
-              <dd>業務システム開発に4年以上従事（2022年〜）</dd>
-            </div>
-            <div class="profile-row">
-              <dt>担当工程</dt>
-              <dd>要件定義、詳細設計、結合テスト、システムテスト</dd>
-            </div>
-            <div class="profile-row">
-              <dt>役割</dt>
-              <dd>担当メンバーからリーダーへ。現在は複数名のチームを推進</dd>
-            </div>
-            <div class="profile-row">
-              <dt>技術スタック</dt>
-              <dd>
-                <div class="stack">
-                  <p class="stack-title">業務システム開発</p>
-                  <ul class="tags">
-                    <li>Java/Spring</li>
-                    <li>PL/SQL</li>
-                    <li>SQL</li>
-                    <li>Oracle</li>
-                    <li>PostgreSQL</li>
-                    <li>Linux/Windows</li>
-                    <li>Git</li>
-                  </ul>
-                  <p class="stack-note">レガシー環境の保守経験あり</p>
-                </div>
-                <div class="stack">
-                  <p class="stack-title">個人開発（本番運用中）</p>
-                  <ul class="tags">
-                    <li>React</li>
-                    <li>TypeScript</li>
-                    <li>Django</li>
-                    <li>Django REST Framework</li>
-                    <li>PostgreSQL</li>
-                    <li>Azure</li>
-                  </ul>
-                </div>
-              </dd>
-            </div>
-          </dl>
+          <div class="contact-panel">
+            <p class="contact-panel-title">フォームでお伺いすること</p>
+            <ul class="form-fields">
+              <li><span>お名前・メールアドレス</span><span class="field-tag">必須</span></li>
+              <li><span>会社名・屋号</span><span class="field-tag field-tag--opt">任意</span></li>
+              <li><span>相談したいサービス</span><span class="field-tag">必須</span></li>
+              <li><span>現在お困りのこと</span><span class="field-tag">必須</span></li>
+              <li><span>ご希望の時期・ご予算の目安</span><span class="field-tag field-tag--opt">任意</span></li>
+              <li><span>個人情報の取り扱いへの同意</span><span class="field-tag">必須</span></li>
+            </ul>
+            <p class="contact-panel-title contact-panel-title--sub">相談の種類を選んだ状態で開く</p>
+            <ul class="quick-links">
+              <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSciZb-YxmIhwWlTaf8ZAlrvFsC3_Vq9RciBratoMTr7Pluogw/viewform?usp=pp_url&amp;entry.2109916976=Excel%E3%83%BBCSV%E3%83%BB%E5%AE%9A%E5%9E%8B%E6%A5%AD%E5%8B%99%E3%81%AE%E8%87%AA%E5%8B%95%E5%8C%96" target="_blank" rel="noopener noreferrer">Excel・CSVの自動化<span class="visually-hidden">（新しいタブで開きます）</span></a></li>
+              <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSciZb-YxmIhwWlTaf8ZAlrvFsC3_Vq9RciBratoMTr7Pluogw/viewform?usp=pp_url&amp;entry.2109916976=Web%E3%82%B5%E3%82%A4%E3%83%88%E5%88%B6%E4%BD%9C%E3%83%BBWordPress" target="_blank" rel="noopener noreferrer">Web制作・WordPress<span class="visually-hidden">（新しいタブで開きます）</span></a></li>
+              <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSciZb-YxmIhwWlTaf8ZAlrvFsC3_Vq9RciBratoMTr7Pluogw/viewform?usp=pp_url&amp;entry.2109916976=%E5%B0%8F%E8%A6%8F%E6%A8%A1Web%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E9%96%8B%E7%99%BA" target="_blank" rel="noopener noreferrer">小規模Webシステム<span class="visually-hidden">（新しいタブで開きます）</span></a></li>
+              <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSciZb-YxmIhwWlTaf8ZAlrvFsC3_Vq9RciBratoMTr7Pluogw/viewform?usp=pp_url&amp;entry.2109916976=AI%E6%B4%BB%E7%94%A8%E3%83%BB%E6%A5%AD%E5%8B%99%E6%94%B9%E5%96%84" target="_blank" rel="noopener noreferrer">AI活用・業務改善<span class="visually-hidden">（新しいタブで開きます）</span></a></li>
+              <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSciZb-YxmIhwWlTaf8ZAlrvFsC3_Vq9RciBratoMTr7Pluogw/viewform?usp=pp_url&amp;entry.2109916976=%E3%81%9D%E3%81%AE%E4%BB%96%E3%83%BB%E3%81%BE%E3%81%A0%E6%B1%BA%E3%81%BE%E3%81%A3%E3%81%A6%E3%81%84%E3%81%AA%E3%81%84" target="_blank" rel="noopener noreferrer">その他・まだ決まっていない<span class="visually-hidden">（新しいタブで開きます）</span></a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
 
   </main>
 
-  <!-- 8. フッター -->
   <footer class="site-footer">
     <div class="footer-inner">
-      <p class="footer-brand">Yohaku Loom</p>
-      <p class="footer-mail">連絡先：【ここに記載】</p>
-      <ul class="footer-links">
-        <li><a href="privacy.html">プライバシーポリシー</a></li>
-        <li><a href="legal.html">特定商取引法に基づく表記</a></li>
-      </ul>
+      <div class="footer-about">
+        <p class="footer-brand">Yohaku Loom</p>
+        <p class="footer-tagline">面倒な業務を、システムで楽に。</p>
+      </div>
+      <nav class="footer-nav" aria-label="フッター">
+        <ul class="footer-links">
+          <li><a href="#services">サービス</a></li>
+          <li><a href="#pricing">料金</a></li>
+          <li><a href="#flow">進め方</a></li>
+          <li><a href="#works">実績</a></li>
+          <li><a href="#faq">よくある質問</a></li>
+          <li><a href="#contact">ご相談</a></li>
+        </ul>
+        <ul class="footer-links footer-links--legal">
+          <li><a href="privacy.html">プライバシーポリシー</a></li>
+          <li><a href="legal.html">特定商取引法に基づく表記</a></li>
+        </ul>
+      </nav>
       <p class="copyright"><small>&copy; Yohaku Loom</small></p>
     </div>
     <p class="footer-wordmark" aria-hidden="true">Yohaku Loom</p>
